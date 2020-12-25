@@ -22,7 +22,7 @@ class Pynote :
         menubar.add_cascade(label="File", menu=filemenu)
         self.root.config(menu=menubar)
 
-        # Scrolled text..
+        # Scrolled text
         self.textarea = ScrolledText(self.root ,undo=True,wrap=WORD)
         self.textarea.place(relwidth=1, relheight=1)
 
